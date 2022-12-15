@@ -5,7 +5,8 @@ on:
 
 jobs:
   call-workflow-1-in-local-repo:
-    uses: limsangwoonkk/github-action-start/.github/workflows/reusable-workfow.yml@7110d787acfa856d0d5175722da48c63ff40a9e0
+    uses: limsangwoonkk/github-action-start/.github/workflows/reusable-workfow.yml@7110d787acfa856d0d5175722da48c63ff40a9e0   # {owner}/{repo}/{path}/{filename}@{ref} : public/internal 저장소의 재사용할 수 있는 워크플로우이다. 
+    # @{ref} 같은 경우 전체 commit의 값을 넣어주면 된다, 예시) caller-workflow.yaml@36f0d0aef48da832eb03a4d1d82e1705392bbfdb
     with:
       username: outsider
     secrets:
