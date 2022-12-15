@@ -5,7 +5,7 @@ on:
 
 jobs:
   call-workflow-1-in-local-repo:
-    uses: limsangwoonkk/github-action-start/.github/workflows/reusable-workfow.yml
+    uses: limsangwoonkk/github-action-start/.github/workflows/reusable-workfow.yml@7110d787acfa856d0d5175722da48c63ff40a9e0
     with:
       username: outsider
     secrets:
