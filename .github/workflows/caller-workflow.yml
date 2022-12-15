@@ -9,4 +9,4 @@ jobs:
     with:
       username: outsider
     secrets:
-      SECRET_SEED: world
+      SECRET_SEED: korean king sangwoon
